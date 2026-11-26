@@ -2,8 +2,10 @@
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#103e36"><title>La mochila de Álex · CSI Flors</title>
 <style>
 :root{--green:#103e36;--ink:#172f2a;--lime:#ddf195;--paper:#f6f3e9;--line:#c9cec0;--orange:#ffad71;--muted:#4c6258;font-family:system-ui,sans-serif;color:var(--ink);background:var(--paper)}*{box-sizing:border-box}body{margin:0}header{background:var(--green);color:white;display:flex;justify-content:space-between;align-items:center;padding:14px max(5vw,20px);gap:16px}.brand{display:flex;align-items:center;gap:10px;font-size:1.05rem;font-weight:850;letter-spacing:.04em}.mark{font-size:1.45rem;border:1px solid #b9c99e;border-radius:50%;width:36px;height:36px;text-align:center;line-height:32px;color:var(--lime)}.quiet{background:transparent;color:inherit;border:1px solid currentColor;padding:8px 15px;font-size:.9rem}button,a.action{font:inherit;font-weight:700;color:var(--ink);border:1px solid var(--green);border-radius:8px;background:white;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:.5rem;padding:12px 18px;text-decoration:none}button:hover,a.action:hover{filter:brightness(.93)}button:disabled{opacity:.5;cursor:default}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #ce6b25;outline-offset:3px}header .quiet{color:#fff;border-color:#839d91;background:transparent}.primary{background:var(--lime);box-shadow:0 2px 0 var(--green)}main{max-width:1180px;padding:32px 30px 60px;margin:auto}.hero{position:relative;isolation:isolate;background:var(--green);color:#faf9ee;display:grid;grid-template-columns:1fr 1fr;border-radius:18px;overflow:hidden}.hero-copy{padding:clamp(28px,4.1vw,62px);align-self:center}.kicker,.meta{font:700 .8rem/1.55 ui-monospace,monospace;text-transform:uppercase;letter-spacing:.08em}.hero .kicker{color:var(--lime)}h1,h2,h3,p{margin:0 0 .7em}h1,h2{font-family:Georgia,serif;line-height:1.02;letter-spacing:-.045em}h1{font-size:clamp(3.2rem,6.1vw,5.4rem)}h1 em{color:var(--lime);font-weight:500}h2{font-size:clamp(2rem,4vw,3.35rem)}h3{font-size:1.19rem;line-height:1.25}.hero p{font-size:1.06rem;color:#e6ece4;line-height:1.5}.hero label{color:white}.hero form{margin-top:1.2rem}.hero input{max-width:100%;min-width:0}.join{display:flex;gap:8px}.join input{width:53%}.join button{white-space:nowrap}.art{position:relative;background:#b8cec0;min-height:320px;overflow:hidden}.art canvas{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.caption{position:absolute;right:16px;bottom:14px;color:#26493b;background:#f7f4df;padding:5px 10px;transform:rotate(-3deg);font:700 .76rem/1.4 ui-monospace,monospace}.schedule{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.phase{border-top:3px solid #528574;padding:12px 0}.phase b,.phase small{display:block}.phase small{font-size:.9rem;color:var(--muted);margin-top:4px}.section-title{margin:1.6rem 0 .8rem;font-size:1.55rem}.meta{color:var(--muted);margin-bottom:.6rem}.panel{background:#fffef7;border:1px solid var(--line);border-radius:15px;padding:clamp(20px,4vw,42px)}.wrap{max-width:870px;margin:auto}.scene{display:flex;align-items:center;gap:20px;margin:12px 0 20px}.specimen{width:100px;height:100px;border-radius:14px;background:#dbe5ca;flex:none}.scene h2{margin:0}.lead{font-size:1.12rem;line-height:1.55}label,legend{font-weight:720;display:block;margin-bottom:6px}input[type=text],textarea,select{background:#fffef9;border:1px solid #83948a;border-radius:7px;padding:11px 12px;font:inherit;color:var(--ink)}textarea,select{width:100%}textarea{resize:vertical;min-height:70px}fieldset{border:0;margin:0 0 20px;padding:0;min-width:0}.option{display:flex;align-items:flex-start;gap:10px;border:1px solid var(--line);background:white;border-radius:8px;padding:11px 14px;font-weight:500;cursor:pointer}.option:has(input:checked){border-color:#356250;background:#edf4da}.option input{accent-color:var(--green);margin-top:.3em}.conf{display:flex;gap:6px;flex-wrap:wrap}.conf .option{font-size:.95rem}.actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:18px}.topline{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--muted);font-size:.92rem;margin:0 0 10px}.track{height:6px;border-radius:10px;background:#d8dfd0;margin:0 0 22px;overflow:hidden}.track i{height:100%;display:block;background:#377656}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:20px}.card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;justify-content:flex-start;background:#fffef7;border:1px solid var(--line);border-radius:13px;padding:12px}.card canvas{width:100%;height:100px;object-fit:contain;background:#e4ebdb;border-radius:8px}.card .small{font-size:.82rem;font-weight:500;color:var(--muted)}.note,blockquote{background:#e6eddc;border-left:4px solid #698751;padding:12px 16px;border-radius:0 6px 6px 0;margin:12px 0 18px;line-height:1.5}p,li{line-height:1.5}dialog{max-width:min(650px,94vw);max-height:90vh;border:1px solid var(--green);border-radius:14px;background:var(--paper);color:var(--ink);padding:28px}dialog::backdrop{background:#071c16a8}dialog li{margin:.45em 0}summary{cursor:pointer;font-weight:750;padding:9px 0}.result{font-size:3rem;font-family:Georgia,serif}.foot{font-size:.9rem;color:var(--muted)}.resume{padding:15px;border:1px solid #a4b490;border-radius:12px;margin-bottom:18px;background:#e5edd8}.resume button{margin:.35em}.phase small{line-height:1.4}select{max-width:100%}dialog h2{font-size:2rem}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}@media(max-width:750px){.hero{grid-template-columns:1fr}.art{min-height:210px;max-height:210px;grid-row:1}.hero-copy{padding:25px}h1{font-size:3.3rem}.schedule{grid-template-columns:1fr 1fr}main{padding:18px 16px 36px}.specimen{width:70px;height:70px}.join{flex-wrap:wrap}.caption{bottom:8px}.topline{align-items:flex-start}}@media(max-width:440px){.join input,.join button{width:100%}.scene{gap:10px}.brand{font-size:.88rem}.quiet{padding:8px}.hero-copy{padding:22px}}
+
+.trail{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}.trail span{padding:6px 10px;border:1px solid #b9c5b6;border-radius:6px;font-size:.86rem;color:#465a50}.trail span.active{background:#174738;border-color:#174738;color:#fff}.task{border-top:1px solid #c4cec2;margin:22px 0;padding:6px 0 0}.task legend{padding:0 8px 0 0;font-size:1.08rem}.mapping{display:grid;grid-template-columns:minmax(125px,.6fr) minmax(0,1fr);align-items:center;gap:12px;margin:8px 0;font-weight:600}.mapping select{font-size:1rem}.measure input{max-width:9rem}.measure{font-weight:500}.tableBox{overflow-x:auto;margin:20px 0}.tableBox table{width:100%;border-collapse:collapse;border-bottom:1px solid #9eafa1;font-variant-numeric:tabular-nums}.tableBox th,.tableBox td{padding:10px 12px;text-align:center;border-bottom:1px solid #ced7cc}.tableBox thead{background:#174738;color:white}.tableBox tbody th,.tableBox caption{text-align:left}.tableBox caption{padding-bottom:8px;font-weight:bold}.tableBox tbody tr:nth-child(2n){background:#eef2e4}.pair-note,.notebook{background:#f0f1e6;border-radius:8px;padding:12px 15px;margin:18px 0}.hint:empty,.signal:empty{display:none}.hint,.signal{font-weight:600}.hint.rethink,.signal{color:#783414}.hint.right{color:#215637}.solved{border-top:6px solid #4f805e}.task .option:has(input:checked){box-shadow:inset 2px 0 #356250}button:focus-visible,summary:focus-visible{outline:3px solid #ce6b25;outline-offset:3px}@media(max-width:620px){.mapping{grid-template-columns:1fr;gap:4px}.tableBox th,.tableBox td{padding:7px 5px}.trail span{padding:4px 6px}}
 </style></head><body><header><span class="brand"><span class="mark" aria-hidden="true">✳</span> CSI FLORS</span><button class="quiet" id="guide">Guía docente</button></header><main id="main" tabindex="-1"></main>
-<dialog id="guidebox"><h2>Guía de la sesión</h2><p>Para iniciar inmunología en 4.º de ESO. Cada estudiante abre su propio expediente y escribe su nombre. Puede trabajar con una pareja en el contraste.</p><ol><li><b>3 min · Abrir el caso.</b> Presenta la mochila encontrada tras la excursión. Pregunta qué objetos podrían tener algo que ver con las defensas.</li><li><b>12 min · Investigar.</b> Pide respuestas individuales. En cada objeto se conserva la hipótesis inicial, su justificación y el grado de seguridad.</li><li><b>8 min · Contrastar.</b> Por parejas, eligen dos objetos distintos. Primero se cuentan sus ideas, después leen la evidencia y cada cual anota qué mantiene o cambia. En solitario pueden comparar su primera idea con la pista.</li><li><b>7 min · Cerrar.</b> Reserva cuatro minutos para cinco situaciones nuevas y tres para descargar el informe y debatir qué evidencia les hizo cambiar de opinión.</li></ol><p><b>Cómo leer el informe.</b> La nota sobre 10 corresponde al reto final (2 puntos por acierto). Para preparar la siguiente clase, busca primero ideas iniciales poco ajustadas que se defendieron con mucha seguridad. Una respuesta acertada con poca seguridad puede merecer también una conversación.</p><p><b>Entrega.</b> Cada estudiante descarga su PDF y lo adjunta a la tarea que hayas creado en Classroom. El informe se genera en el dispositivo.</p><form method="dialog"><button>Cerrar guía</button></form></dialog>
+<dialog id="guidebox"><h2>Guía para una clase de 50 minutos</h2><ol id="guidePhases"></ol><p><b>Cómo funcionan los bloqueos.</b> Se guardan las hipótesis iniciales tal como las formula el alumnado. Para abrir la fase siguiente debe resolver el acta, después las cinco estaciones y después los tres expedientes con datos. Cada dictamen final exige también acertar sus dos partes. Las pistas se amplían al reintentar.</p><p><b>Cómo se calcula la puntuación.</b> En los cinco dictámenes finales se concede 1 punto por decisión y 1 por justificación acertadas en el primer envío. El PDF muestra los intentos y el feedback por tema. Las reflexiones de texto libre quedan para tu lectura. Solo se corrigen automáticamente las respuestas estructuradas.</p><p><b>Entrega.</b> Cada estudiante descarga su PDF y lo adjunta a la tarea de Classroom. El progreso se conserva al recargar esta pestaña. Quien termine antes puede abrir un contraexperimento en la pantalla final: debe escoger un grupo de comparación y defender qué variable aísla. Puede incorporarlo al PDF sin modificar la nota.</p><form method="dialog"><button>Cerrar guía</button></form></dialog>
 <script>
 (()=>{
 'use strict';
@@ -17,29 +19,392 @@ const cases=[
 const confidence=['Tengo dudas','Bastante seguridad','Mucha seguridad'];
 const root=document.querySelector('main'),$=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let state=null,stage='home',index=0;
-const storageKey='csi-flors-mochila-v1';
+let state=null;
+const storageKey='csi-flors-mochila-50-v2';
 function persist(){try{sessionStorage.setItem(storageKey,JSON.stringify(state))}catch{}}
 function show(html,wide=false){root.innerHTML=wide?html:'<div class="wrap">'+html+'</div>';root.querySelectorAll('canvas[data-art]').forEach(c=>paint(c,Number(c.dataset.art)));root.focus({preventScroll:true});window.scrollTo(0,0)}
 function phase(n,t,d){return '<div class="phase"><span class="meta">'+n+' min</span><b>'+t+'</b><small>'+d+'</small></div>'}
-function home(){stage='home';show((state?'<div class="resume">Expediente de <b>'+esc(state.name)+'</b> en esta pestaña. <button id="resume">Continuar expediente</button></div>':'')+'<section class="hero"><div class="hero-copy"><div class="kicker">Biología · Investigación de aula</div><h1>La mochila<br>de <em>Álex</em></h1><p>Una excursión, una mochila olvidada y cinco objetos. ¿Qué tienen que ver con las defensas del cuerpo?</p><form id="start"><label for="name">Tu nombre</label><div class="join"><input type="text" id="name" placeholder="Escribe tu nombre" required maxlength="65" autocomplete="off"><button class="primary">Abrir el caso</button></div></form></div><div class="art"><canvas data-art="-1" aria-label="Ilustración de la mochila de Álex rodeada de las cinco pruebas"></canvas><span class="caption">Material recogido tras la excursión</span></div></section><h2 class="section-title">Tu misión en 30 minutos</h2><div class="schedule">'+phase(3,'Abre el caso','Identifícate y observa la mochila.')+phase(12,'Investiga','Registra tus cinco hipótesis.')+phase(8,'Contrasta','Discute dos evidencias en pareja.')+phase(7,'Cierra el expediente','Resuelve el reto y entrega tu informe.')+'</div>',true);
+function home(){show((state?'<div class="resume">Expediente de <b>'+esc(state.name)+'</b> en esta pestaña. <button id="resume">Continuar expediente</button></div>':'')+'<section class="hero"><div class="hero-copy"><div class="kicker">Biología · Investigación de aula</div><h1>La mochila<br>de <em>Álex</em></h1><p>Una excursión, una mochila olvidada y cinco objetos. ¿Qué tienen que ver con las defensas del cuerpo?</p><form id="start"><label for="name">Tu nombre</label><div class="join"><input type="text" id="name" placeholder="Escribe tu nombre" required maxlength="65" autocomplete="off"><button class="primary">Abrir el caso</button></div></form></div><div class="art"><canvas data-art="-1" aria-label="Ilustración de la mochila de Álex rodeada de las cinco pruebas"></canvas><span class="caption">Material recogido tras la excursión</span></div></section><h2 class="section-title">Tu misión en 50 minutos</h2><div class="schedule">'+phases.map(p=>phase(p.time,p.title,p.goal)).join('')+'</div>',true);
 if($('resume'))$('resume').onclick=resume;
-$('start').onsubmit=e=>{e.preventDefault();let n=$('name').value.trim();if(!n){$('name').setCustomValidity('Escribe tu nombre.');$('name').reportValidity();return}if(state&&!confirm('¿Abrir otro expediente y sustituir el de esta pestaña?'))return;state={name:n,initial:Array(5).fill(null),pairs:[],answers:[],step:'board',date:new Date().toLocaleDateString('es-ES')};persist();board()};$('name').oninput=()=>$('name').setCustomValidity('')}
-function resume(){if(state.step==='done')report();else if(state.step==='exit')exitQuiz();else if(state.step==='pair')pair();else board()}
+$('start').onsubmit=e=>{e.preventDefault();let n=$('name').value.trim();if(!n){$('name').setCustomValidity('Escribe tu nombre.');$('name').reportValidity();return}if(state&&!confirm('¿Abrir otro expediente y sustituir el de esta pestaña?'))return;state=newState(n);persist();board()};$('name').oninput=()=>$('name').setCustomValidity('')}
 function progressHeader(label,num,total){return '<div class="topline"><b>'+label+'</b><span>Agente · '+esc(state.name)+'</span></div><div class="track"><i style="width:'+Math.round(num/total*100)+'%"></i></div>'}
-function board(){stage='board';const count=state.initial.filter(Boolean).length;show(progressHeader('Investigación individual · 12 min',count,5)+'<div class="meta">Mesa de pruebas · '+count+' de 5 registradas</div><h2>¿Qué esconde la mochila?</h2><p class="lead">Abre los objetos en el orden que quieras. Anota lo que piensas antes de hablar con tu pareja. Si tienes dudas, explica qué te hace dudar.</p><div class="cards">'+cases.map((c,i)=>'<button class="card" data-case="'+i+'"><canvas data-art="'+i+'" aria-hidden="true"></canvas><b>'+c.title+'</b><span class="small">'+(state.initial[i]?'Hipótesis registrada':'Examinar objeto')+'</span></button>').join('')+'</div>'+(count===5?'<div class="actions"><button class="primary" id="contrast">Abrir las evidencias</button></div>':''),true);
-root.querySelectorAll('[data-case]').forEach(b=>b.onclick=()=>investigate(+b.dataset.case));if($('contrast'))$('contrast').onclick=()=>{state.step='pair';persist();pair()}}
 function choices(opts,name,sel){return opts.map((v,j)=>'<label class="option"><input type="radio" required name="'+name+'" value="'+j+'" '+(j===sel?'checked':'')+'><span>'+esc(v)+'</span></label>').join('')}
 function scene(i){return '<div class="scene"><canvas class="specimen" data-art="'+i+'" aria-hidden="true"></canvas><h2>'+cases[i].title+'</h2></div>'}
-function investigate(i){stage='investigate';const c=cases[i],v=state.initial[i];show(progressHeader('Investigación individual',state.initial.filter(Boolean).length,5)+'<section class="panel">'+scene(i)+'<p class="lead">'+c.story+'</p>'+(v?'<div class="note"><b>Tu hipótesis registrada</b><p>'+c.opts[v.pick]+'</p><p>'+esc(v.why)+'</p>'+confidence[v.conf]+'</div><button id="back">Volver a la mochila</button>':'<form id="hyp"><fieldset><legend>'+c.q+'</legend>'+choices(c.opts,'pick')+'</fieldset><label for="why">¿Por qué lo crees?</label><textarea id="why" required maxlength="500" placeholder="Una observación, una comparación o una duda…"></textarea><fieldset><legend>¿Con qué seguridad lo dirías?</legend><div class="conf">'+choices(confidence,'conf')+'</div></fieldset><div class="actions"><button class="primary">Registrar hipótesis</button><button type="button" id="back">Volver a la mochila</button></div></form>')+'</section>');$('back').onclick=board;if($('hyp'))$('hyp').onsubmit=e=>{e.preventDefault();if(!validText('why'))return;const f=new FormData(e.target);state.initial[i]={pick:+f.get('pick'),conf:+f.get('conf'),why:$('why').value.trim()};persist();board()}}
+function investigate(i){const c=cases[i],v=state.initial[i];show(progressHeader('Investigación individual',state.initial.filter(Boolean).length,5)+'<section class="panel">'+scene(i)+'<p class="lead">'+c.story+'</p>'+(v?'<div class="note"><b>Tu hipótesis registrada</b><p>'+c.opts[v.pick]+'</p><p>'+esc(v.why)+'</p>'+confidence[v.conf]+'</div><button id="back">Volver a la mochila</button>':'<form id="hyp"><fieldset><legend>'+c.q+'</legend>'+choices(c.opts,'pick')+'</fieldset><label for="why">¿Por qué lo crees?</label><textarea name="why" id="why" required maxlength="500" placeholder="Una observación, una comparación o una duda…"></textarea><fieldset><legend>¿Con qué seguridad lo dirías?</legend><div class="conf">'+choices(confidence,'conf')+'</div></fieldset><div class="actions"><button class="primary">Registrar hipótesis</button><button type="button" id="back">Volver a la mochila</button></div></form>')+'</section>');$('back').onclick=board;if($('hyp')){
+  restore($('hyp'),state.initialDraft[i]);
+  $('hyp').oninput=()=>{state.initialDraft[i]=Array.from(new FormData($('hyp')));persist()};
+}
+if($('hyp'))$('hyp').onsubmit=e=>{e.preventDefault();if(!validText('why'))return;const f=new FormData(e.target);state.initial[i]={pick:+f.get('pick'),conf:+f.get('conf'),why:$('why').value.trim()};delete state.initialDraft[i];persist();board()}}
 function validText(id){let el=$(id);if(el.value.trim())return true;el.setCustomValidity('Escribe tu idea con tus palabras.');el.reportValidity();el.oninput=()=>el.setCustomValidity('');return false}
-function pair(selected){stage='pair';const n=state.pairs.length;const available=cases.map((_,i)=>i).filter(i=>!state.pairs.some(p=>p.i===i));let i=available.includes(selected)?selected:available[0];const c=cases[i],v=state.initial[i];show(progressHeader('Contraste en pareja · 8 min',n,2)+'<section class="panel"><div class="meta">Evidencia '+(n+1)+' de 2</div><h2>La mesa de contraste</h2><p>Escoge un objeto. Cuenta tu primera idea a tu pareja y escucha la suya antes de levantar la tarjeta.</p><label for="object">Objeto que vais a debatir</label><select id="object">'+available.map(j=>'<option value="'+j+'" '+(j===i?'selected':'')+'>'+cases[j].title+'</option>').join('')+'</select><blockquote><b>Tu primera idea</b><br>'+c.opts[v.pick]+'<br><i>'+esc(v.why)+'</i></blockquote><button id="reveal">Levantar la tarjeta de evidencia</button><div id="evidence" hidden><div class="note"><b>Lo que se sabe</b><p>'+c.clue+'</p><b>'+c.ask+'</b></div><form id="discuss"><fieldset><legend>Tras el contraste…</legend>'+choices(['Mantengo mi hipótesis','La matizo','Cambio de idea'],'change')+'</fieldset><label for="reflection">¿Qué detalle de la evidencia apoya tu conclusión?</label><textarea id="reflection" required maxlength="600"></textarea><button class="primary">'+(n?'Pasar al reto individual':'Guardar y elegir otra prueba')+'</button></form></div></section>');$('object').onchange=e=>pair(+e.target.value);$('reveal').onclick=()=>{$('object').disabled=true;$('reveal').hidden=true;$('reveal').style.display='none';$('evidence').hidden=false;$('evidence').scrollIntoView({block:'nearest'})};$('discuss').onsubmit=e=>{e.preventDefault();if(!validText('reflection'))return;state.pairs.push({i,change:+new FormData(e.target).get('change'),text:$('reflection').value.trim()});if(state.pairs.length===2)state.step='exit';persist();resume()}}
-function exitQuiz(){stage='exit';const i=state.answers.length,c=cases[i];show(progressHeader('Reto individual · Cierre',i,5)+'<section class="panel"><div class="meta">Situación nueva · '+(i+1)+' de 5</div><h2>Fuera de la mochila</h2><p>Aplica tus ideas a otro caso. Cada situación vale 2 puntos.</p><form id="answer"><fieldset><legend class="lead">'+c.end+'</legend>'+choices(c.choices,'final')+'</fieldset><button class="primary">'+(i===4?'Crear mi informe':'Registrar y continuar')+'</button></form></section>');$('answer').onsubmit=e=>{e.preventDefault();state.answers.push(+new FormData(e.target).get('final'));if(state.answers.length===5)state.step='done';persist();resume()}}
-function feedback(i){const c=cases[i],ok=state.answers[i]===c.ans,first=state.initial[i].pick===c.key;if(ok&&first)return 'Has aplicado la misma idea correctamente en dos contextos. '+c.clue;if(ok)return 'En el reto final has aplicado correctamente una idea que al principio estaba en revisión. '+c.clue;if(first)return 'Tu idea inicial encajaba con la evidencia. Al trasladarla al caso nuevo apareció una dificultad. '+c.tip;return 'Conviene volver sobre esta idea. '+c.tip}
-const changes=['Mantengo mi hipótesis','La matizo','Cambio de idea'];
-function score(){return state.answers.reduce((a,v,i)=>a+(v===cases[i].ans?2:0),0)}
-function reportLines(){let rows=['CSI FLORS · LA MOCHILA DE ÁLEX','Informe de investigación de inmunología',state.name+' · '+state.date,'Puntuación del reto final: '+score()+' / 10','Cada acierto final suma 2 puntos. Las ideas previas, la seguridad y el contraste se conservan sin calificación.'];cases.forEach((c,i)=>{const v=state.initial[i];rows.push('',c.title+' · '+c.topic,'Pregunta inicial: '+c.q,'Hipótesis: '+c.opts[v.pick],'Justificación: '+v.why,'Seguridad: '+confidence[v.conf]);const p=state.pairs.find(p=>p.i===i);if(p)rows.push('Contraste: '+changes[p.change]+'. '+p.text);rows.push('Reto final: '+c.end,'Respuesta: '+c.choices[state.answers[i]],'Puntos: '+(state.answers[i]===c.ans?'2/2':'0/2'),'Feedback: '+feedback(i));if(state.answers[i]!==c.ans)rows.push('Idea de referencia: '+c.choices[c.ans])});return rows}
-function report(){stage='done';show('<section class="panel"><div class="meta">Expediente cerrado · '+esc(state.name)+'</div><h2>Tu informe de investigación</h2><strong class="result">'+score()+' / 10</strong><p>Has resuelto '+score()/2+' de 5 situaciones del reto final. Tus hipótesis iniciales y tu seguridad quedan recogidas para que puedas comentarlas en clase.</p><div class="actions"><button class="primary" id="save">Descargar mi PDF</button><button id="send">Entregar por Classroom</button></div><div id="delivery" hidden></div><p class="foot" id="status" role="status"></p><h3>Feedback por objeto</h3>'+cases.map((c,i)=>'<details><summary>'+c.title+' · '+(state.answers[i]===c.ans?'2/2':'0/2')+'</summary><p>'+feedback(i)+'</p><p><b>Idea de referencia.</b> '+c.choices[c.ans]+'</p></details>').join('')+'<div class="note"><b>Para la puesta en común</b><br>¿Qué objeto te hizo replantearte una idea? Menciona la evidencia que te convenció.</div><button id="restart">Volver al inicio</button></section>');$('restart').onclick=home;$('save').onclick=()=>downloadPDF();$('send').onclick=()=>delivery()}
+// A proof can ask for one choice, several pieces of evidence, a match or a measured value.
+const one = (prompt, options, key, hints) => ({type:'one', prompt, options, key, hints});
+const many = (prompt, options, key, hints) => ({type:'many', prompt, options, key, hints});
+const match = (prompt, labels, options, key, hints) => ({type:'match', prompt, labels, options, key, hints});
+const number = (prompt, unit, key, hints) => ({type:'number', prompt, unit, key, hints});
+const files = [
+  {
+    title:'El acta de la excursión', phase:0, object:3,
+    intro:'En la foto, Nora lleva un pañuelo junto a un árbol en flor. Su cuaderno dice «he estornudado tres veces». La foto y la nota son las únicas pruebas del acta.',
+    questions:[
+      many('Marca las dos observaciones que podrías registrar tal como aparecen en el acta.',
+        ['La imagen muestra a Nora junto a un árbol en flor.','Un virus causó los estornudos.','La nota de Nora registra tres estornudos.','Nora ha transmitido el problema a Álex.'],[0,2],
+        ['Distingue lo que alguien vio o anotó de una posible causa.','Tapa mentalmente cualquier frase que proponga una explicación. ¿Qué queda documentado?']),
+      one('¿Qué dato adicional sería más útil para investigar el papel del polen?',
+        ['El color de la mochila ese día.','Un registro de los síntomas de Nora en días con distinta cantidad de polen.','Cuántos pañuelos caben en la mochila.'],1,
+        ['Busca una comparación que pueda poner a prueba la hipótesis.','Elige un registro que relacione la exposición con lo que le ocurre a la misma persona.'])
+    ],
+    finding:'Has separado la observación de una explicación que necesita más evidencias.'
+  },
+  {
+    title:'La frontera interrumpida', phase:1, object:0,
+    intro:'Una ilustradora necesita tres viñetas para explicar el raspón. Sus dibujos muestran piel intacta, una abertura y una célula defensiva que envuelve una partícula que ha entrado.',
+    questions:[
+      match('Reconstruye la secuencia. Asigna una viñeta distinta a cada momento.',
+        ['Antes del raspón','Al producirse el raspón','Si una partícula entra y un fagocito la encuentra'],
+        ['Un fagocito rodea la partícula.','La capa exterior forma una superficie continua.','Se interrumpe la continuidad de la superficie.'],[1,2,0],
+        ['Sigue la partícula desde el exterior.','Distingue el obstáculo físico de la acción de una célula que ya está en el tejido.']),
+      one('¿A qué defensa pertenece la intervención del fagocito en esta escena?',
+        ['A la memoria específica de una vacuna.','A una barrera que solo funciona antes de nacer.','A una respuesta innata que puede actuar ante distintos agentes.'],2,
+        ['¿Se menciona que haya hecho falta un contacto previo?','Piensa qué defensas pueden actuar desde el primer encuentro.'])
+    ], finding:'La barrera cutánea y la fagocitosis actúan en momentos diferentes de la defensa innata.'
+  },
+  {
+    title:'Etiquetas intercambiadas',phase:1,object:1,
+    intro:'En el expositor del museo aparecen tres fichas: un fermento transforma la leche, una bacteria intestinal ayuda a aprovechar nutrientes y otra bacteria puede causar enfermedad. El rótulo general afirma «todas son enemigas».',
+    questions:[
+      match('Devuelve a cada ficha el pie de foto que le corresponde.',
+        ['Fermento del yogur','Bacteria intestinal de la ficha','Bacteria que puede causar enfermedad'],
+        ['Posible agente patógeno','Participación en la digestión','Transformación de un alimento'],[2,1,0],
+        ['Busca el verbo que describe lo que hace cada bacteria.','¿La ficha habla del alimento, de una función en el organismo o de una enfermedad?']),
+      many('Selecciona las dos conclusiones que sí admite el expositor.',
+        ['Cualquier bacteria intestinal es beneficiosa.','Algunas bacterias desempeñan funciones útiles.','Un yogur cura todas las infecciones.','La presencia de bacterias, por sí sola, no identifica una enfermedad.'],[1,3],
+        ['Una ficha concreta permite un ejemplo, pero no una afirmación universal.','Busca conclusiones compatibles con las tres fichas a la vez.'])
+    ],finding:'Las bacterias pueden desempeñar funciones diferentes. Para interpretar su presencia hace falta contexto.'
+  },
+  {
+    title:'El mensaje incompleto',phase:1,object:2,
+    intro:'El club de ciencias prepara una cartela. Su modelo de bacteria sensible tiene una pared en construcción. El modelo del virus del resfriado carece de ella. La etiqueta del antibiótico ficticio dice «interfiere en la construcción de la pared bacteriana».',
+    questions:[
+      match('Empareja los tres elementos del modelo con su descripción.',
+        ['Bacteria sensible','Virus del resfriado','Antibiótico descrito'],
+        ['Interfiere en el proceso señalado.','Construye la estructura que se menciona.','Carece de la estructura señalada.'],[1,2,0],
+        ['Localiza primero cuál es la diana.','Separa el agente que posee la diana, el que carece de ella y lo que actúa sobre esa diana.']),
+      one('¿Qué límite debes añadir a la cartela?',
+        ['El modelo no permite concluir que el antibiótico sirva para toda bacteria.','Todo agente microscópico tiene esa pared.','Cualquier síntoma permite identificar qué estructura tiene el agente.'],0,
+        ['Vuelve al adjetivo que acompaña a «bacteria» en la descripción.','¿Cuántos tipos de bacteria se han representado aquí?'])
+    ],finding:'El efecto depende de que exista una diana adecuada y de que la bacteria sea sensible.'
+  },
+  {
+    title:'Dos pañuelos, dos historias',phase:1,object:3,
+    intro:'Nora tiene alergia confirmada al polen y estornuda en el jardín. Leo estornuda en casa durante un resfriado viral confirmado. Sus compañeras escriben cuatro titulares.',
+    questions:[
+      many('Selecciona los dos titulares compatibles con ambas historias.',
+        ['Estornudar identifica por sí solo la causa.','Dos causas distintas pueden producir un síntoma parecido.','En Nora interviene una reacción inmunitaria frente a un alérgeno.','Estar cerca de Nora transmite su alergia.'],[1,2],
+        ['Compara lo observable con la causa que se conoce en cada caso.','Revisa si cada titular seguiría siendo cierto al leer las dos historias.']),
+      one('Si solo tuvieras una foto de alguien estornudando, ¿qué pregunta permitiría avanzar?',
+        ['¿Qué marca de pañuelo usa?','¿Qué tamaño tiene la foto?','¿En qué circunstancias aparecen los síntomas y qué otros datos hay?'],2,
+        ['Busca información que distinga explicaciones.','Piensa en antecedentes y exposición, además del síntoma aislado.'])
+    ],finding:'Una alergia y una infección pueden compartir síntomas. El contexto y otras pruebas ayudan a distinguirlas.'
+  },
+  {
+    title:'El archivo de las defensas',phase:1,object:4,
+    intro:'El museo conserva tarjetas de tres protagonistas: un fagocito que engloba partículas, un anticuerpo que se une a un antígeno concreto y una célula de memoria que persiste tras un encuentro.',
+    questions:[
+      match('Relaciona cada protagonista con su función en el archivo.',
+        ['Fagocito','Anticuerpo','Célula de memoria'],
+        ['Reconocimiento y unión específicos.','Respuesta posterior más rápida frente al antígeno reconocido.','Captura de partículas por una célula.'],[2,0,1],
+        ['Distingue una acción celular, una unión molecular y una ventaja en un encuentro posterior.','¿Cuál de las tres descripciones necesita que haya pasado tiempo?']),
+      one('Tras una vacuna frente a A, aparece un agente B con antígenos diferentes. ¿Qué predicción es prudente?',
+        ['La memoria frente a A garantiza protección total frente a B.','Para predecir una respuesta de memoria importa si sus células reconocen los antígenos de B.','La vacunación impide que vuelva a actuar la inmunidad innata.'],1,
+        ['Fíjate en qué reconoce una célula de memoria.','Evita extender una respuesta específica a cualquier agente.'])
+    ],finding:'Un anticuerpo es una proteína. Un fagocito y una célula de memoria son células con funciones diferentes.'
+  },
+  {
+    title:'El modelo de la barrera',phase:2,object:0,
+    intro:'Álex y Nora usan dos láminas de cartón en un modelo digital. En cada ensayo se lanzan veinte fichas. Los números indican cuántas cruzan la lámina. Compara las tres repeticiones con tu pareja.',
+    table:{caption:'Fichas que cruzan de 20 lanzadas · Datos simulados',headers:['Lámina','Ensayo 1','Ensayo 2','Ensayo 3'],rows:[['Continua',1,0,2],['Con abertura',9,10,8]]},
+    questions:[
+      number('¿Cuántas fichas más cruzaron la lámina con abertura que la continua en el conjunto de los tres ensayos?','fichas',24,
+        ['Debes usar las dos filas y las tres columnas.','Suma cada fila por separado y después resta los totales.']),
+      one('¿Qué conclusión respeta los límites del modelo?',
+        ['Una abertura siempre provoca una infección.','Las fichas miden directamente la producción de anticuerpos.','En este modelo, la abertura facilita el paso. El cartón representa solo una función física de la piel.'],2,
+        ['¿Qué se cuenta de verdad en la tabla?','Distingue atravesar una lámina de lo que ocurre después en un organismo.'])
+    ],write:'Cita dos cifras y explica a tu pareja qué parte de la defensa de la piel representa esta comparación.',finding:'Una comparación entre condiciones apoya una explicación física, con los límites propios del modelo.'
+  },
+  {
+    title:'El cuaderno del jardín',phase:2,object:3,
+    intro:'Dos estudiantes ficticios anotan estornudos durante paseos de igual duración. A tiene alergia al polen confirmada. B carece de ese antecedente conocido. Examinad juntos qué permite concluir el registro.',
+    table:{caption:'Estornudos por paseo de 15 minutos · Datos simulados',headers:['Paseo','Nivel de polen','Estudiante A','Estudiante B'],rows:[['Lunes','Bajo',1,1],['Martes','Alto',7,1],['Miércoles','Bajo',2,0],['Jueves','Alto',8,1]]},
+    questions:[
+      number('En A, ¿cuántos estornudos más suman los dos días de polen alto que los dos días de polen bajo?','estornudos',12,
+        ['Usa solo los datos de A.','Agrupa los días por nivel de polen antes de calcular la diferencia.']),
+      many('Marca las dos afirmaciones respaldadas por el registro.',
+        ['En A hubo más estornudos en ambos días de polen alto que en los dos días de polen bajo.','Los datos bastan para diagnosticar cualquier estornudo en cualquier persona.','B presentó un patrón menos variable que A.','La tabla demuestra que toda exposición al polen es contagiosa.'],[0,2],
+        ['Revisa ambos estudiantes y la muestra observada.','Separa describir los valores de establecer un diagnóstico general.'])
+    ],write:'Compara un dato de A con uno de B y señala una limitación del registro. Si trabajas en pareja, discutid si la tabla demuestra una causa.',finding:'Los registros permiten describir un patrón y plantear explicaciones. Por sí solos no permiten generalizar un diagnóstico.'
+  },
+  {
+    title:'El reloj de la memoria',phase:2,object:4,
+    intro:'Un simulador compara dos encuentros con el mismo antígeno. El día 0 se cuenta desde cada encuentro. Se registra un índice ilustrativo de anticuerpos. Buscad cuándo se supera por primera vez el umbral de 5 en las mediciones disponibles.',
+    table:{caption:'Índice relativo de anticuerpos · Datos simulados',headers:['Encuentro','Día 0','Día 2','Día 4','Día 6'],rows:[['Primero',0,1,3,6],['Posterior',1,7,11,13]]},
+    questions:[
+      number('¿Cuántos días antes se observa un valor superior a 5 en el encuentro posterior?','días',4,
+        ['Busca la primera columna que supera 5 en cada fila.','Resta los días correspondientes a esas columnas, no los índices de anticuerpos.']),
+      one('¿Qué hipótesis explica mejor esta diferencia con el mismo antígeno?',
+        ['El día 0 significa que la segunda vez nunca hubo contacto.','Permanecieron células de memoria capaces de reconocer ese antígeno.','El encuentro posterior protege por igual frente a todos los antígenos.'],1,
+        ['Recuerda qué comparten ambos encuentros.','Relaciona la rapidez con algo que se conserve tras el primer encuentro.'])
+    ],write:'Señala el día y el valor que apoyan tu conclusión en cada fila. ¿Qué prueba faltaría para hablar de un antígeno diferente?',finding:'La respuesta posterior supera antes el umbral observado. La especificidad limita lo que podemos concluir sobre otros antígenos.'
+  }
+];
+const verdicts = [
+  {scene:'En una exposición, dos dibujos de un codo son idénticos salvo por una grieta superficial en uno de ellos. La cartela dice que ambos ofrecen la misma protección inicial. ¿Qué corrección firmarías?',
+   options:['La grieta elimina toda la memoria inmunitaria.','La grieta facilita el paso de partículas a través de esa zona.','La piel solo interviene cuando ya hay infección.'],key:1},
+  {scene:'El consejo editorial del instituto recibe esta frase: «Para estar sano, el intestino debería estar libre de bacterias». Te piden una revisión basada en sus posibles funciones.',
+   options:['Aceptaría la frase porque todo microorganismo causa daño.','Cambiaría «bacterias» por «virus» y la daría por comprobada.','Explicaría que una microbiota con bacterias puede contribuir al funcionamiento del intestino.'],key:2},
+  {scene:'Un cartel de una película presenta el mismo antibiótico como solución para una bacteria sensible y para un virus sin pared. En el guion se especifica que su única diana es la formación de la pared bacteriana.',
+   options:['Mantendría ambas predicciones porque los dos agentes son microscópicos.','Corregiría la escena del virus: carece de la diana que describe el guion.','Cambiaría la escena de la bacteria: los antibióticos actúan solo sobre virus.'],key:1},
+  {scene:'En dos visitas al mismo establo, una estudiante con alergia confirmada al caballo tiene picor de ojos. Otra estudiante que la acompaña se encuentra bien. ¿Qué anotación encaja con el expediente?',
+   options:['La exposición desencadenó una respuesta alérgica en la estudiante sensible.','El picor demuestra que la alergia pasó de una persona a otra.','Ambas deben presentar exactamente los mismos síntomas al mismo tiempo.'],key:0},
+  {scene:'El equipo propone comparar dos simulaciones frente al antígeno M. Una empieza con células de memoria que reconocen M y la otra sin ellas. ¿Qué esperas observar?',
+   options:['La primera simulación responderá antes frente a cualquier antígeno imaginable.','Las diferencias de memoria solo cambiarán la barrera cutánea.','La simulación con memoria específica puede alcanzar antes una respuesta frente a M.'],key:2}
+];
+const finalReasons=[
+  one('¿Qué evidencia apoyaría tu conclusión sobre el codo?',
+    ['El dibujo ampliado muestra una interrupción en la capa exterior justo en la grieta.','Alguien tiene la misma edad que Álex.','Un análisis anterior mostraba memoria frente a otro agente.'],0,
+    ['Relaciona la evidencia con la zona alterada.','Piensa qué observarías si la primera defensa fuera física.']),
+  one('¿Qué prueba sería más convincente para revisar la frase?',
+    ['Una foto de una bacteria sin identificar.','Un ejemplo documentado de una bacteria intestinal que participa en una función beneficiosa.','El tamaño de las letras del mural.'],1,
+    ['¿Qué haría falta para cuestionar la palabra «toda»?','Busca una observación sobre la función que desempeña una bacteria en ese entorno.']),
+  one('¿Qué comparación justifica la predicción?',
+    ['La intensidad de los síntomas de dos personas.','La forma de las cajas de dos fármacos.','La presencia o ausencia de la diana del antibiótico en los distintos agentes.'],2,
+    ['Busca el mecanismo del que depende el efecto.','¿Qué tienen que compartir el modelo del agente y la descripción del fármaco?']),
+  one('¿Qué dato apoyaría más tu explicación sobre el establo?',
+    ['Que las dos personas hayan entrado por la misma puerta.','Que los síntomas se repitan en esa persona al exponerse al mismo alérgeno.','Que haya un pañuelo sobre la mesa.'],1,
+    ['Busca un patrón que se repita con una exposición concreta.','El dato debe ayudar a distinguir una reacción a un alérgeno de un hecho casual.']),
+  one('¿Qué variable mantendrías igual para comparar la rapidez de las dos respuestas?',
+    ['El antígeno utilizado y el criterio con que se mide la respuesta.','El color que se utiliza para dibujar cada curva.','El número de letras en el nombre del agente.'],0,
+    ['Busca una comparación justa del efecto de la memoria.','Piensa qué cambiaría la interpretación aunque las dos respuestas se dibujaran igual.'])
+];
+cases.forEach((c,i)=>files.push({
+  title:c.title+' · Dictamen final',phase:3,object:i,intro:verdicts[i].scene,
+  questions:[one('Escoge tu dictamen.',verdicts[i].options,verdicts[i].key,[c.tip,'Revisa la explicación de este objeto en el apartado de pruebas superadas.']),finalReasons[i]],
+  finding:verdicts[i].options[verdicts[i].key]
+}));
+
+const phases = [
+  {title:'Abrir el expediente', time:11, goal:'Registra cinco hipótesis y distingue los hechos de las explicaciones.'},
+  {title:'Reconstruir las defensas', time:14, goal:'Resuelve las cinco estaciones del laboratorio.'},
+  {title:'Contrastar las evidencias', time:15, goal:'Interpreta tres registros en pareja y defiende tus conclusiones.'},
+  {title:'Emitir el dictamen', time:10, goal:'Resuelve cinco casos individuales y entrega tu informe.'}
+];
+const phasesGuide = [
+  'Reserva 2 minutos para la escena y 9 para las hipótesis y el acta. Cada estudiante registra qué cree, por qué y con qué seguridad. El acta comprueba si distingue observación e hipótesis.',
+  'Dedica unos 3 minutos a cada estación. El alumnado ordena una secuencia, empareja conceptos o selecciona evidencias. Ante un error, pide que explique qué relación revisará antes de reintentar.',
+  'Forma parejas con un Chromebook por persona. En cada tabla, una persona defiende el argumento y la otra busca un límite. Alternan los papeles y cada cual registra su explicación. En solitario pueden escribir ambas perspectivas.',
+  'Deja 7 minutos para los cinco dictámenes de dos decisiones y 3 para el PDF y la puesta en común. Pregunta qué dato concreto hizo que cambiaran de opinión.'
+];
+const note = (message) => '<div class="note">'+message+'</div>';
+function newState(name){
+  return {version:2,name,date:new Date().toLocaleDateString('es-ES'),initial:Array(5).fill(null),
+    checks:files.map(()=>({attempts:0,passed:false})),draft:null,initialDraft:{},closing:null};
+}
+function openFile(){return state.checks.findIndex(check=>!check.passed)}
+function stationNumber(i){return files.slice(0,i+1).filter(f=>f.phase===files[i].phase).length}
+function resume(){
+  if(state.initial.some(x=>!x)){board();return}
+  const i=openFile();
+  if(i>=0){station(i);return}
+  if(!state.closing){closeCase();return}
+  report();
+}
+function nav(){
+  const current=openFile(),phase=current<0?3:files[current].phase;
+  return '<nav class="trail" aria-label="Estado de las fases">'+phases.map((p,i)=>{
+    const status=i<phase||state.closing?'Superada':i===phase?'En curso':'Bloqueada';
+    return '<span class="'+(status==='En curso'?'active':'')+'"><b>Fase '+(i+1)+'</b> '+status+'</span>';
+  }).join('')+'</nav>';
+}
+function board(){
+  const count=state.initial.filter(Boolean).length;
+  show(nav()+progressHeader('Fase 1 · Ideas previas',count,5)+
+    '<div class="meta">Mesa de pruebas · '+count+' de 5 registradas</div><h2>¿Qué esconde la mochila?</h2>'+
+    '<p class="lead">Investiga individualmente. Abre los objetos en el orden que quieras y explica lo que crees antes de ver las evidencias. Si dudas, cuenta qué te falta por saber.</p>'+
+    '<div class="cards">'+cases.map((c,i)=>'<button class="card" data-case="'+i+'"><canvas data-art="'+i+'" aria-hidden="true"></canvas><b>'+c.title+'</b><span class="small">'+(state.initial[i]?'Hipótesis registrada':'Examinar objeto')+'</span></button>').join('')+
+    '</div>'+note(count<5?'El acta de observación se abre cuando hayas registrado las cinco hipótesis.':'Ya puedes verificar el acta. Este es el primer control para abrir el laboratorio.')+
+    (count===5?'<button id="act" class="primary">Comprobar el acta</button>':''),true);
+  root.querySelectorAll('[data-case]').forEach(b=>b.onclick=()=>investigate(+b.dataset.case));
+  if($('act'))$('act').onclick=resume;
+}
+function evidenceTable(t){
+  if(!t)return '';
+  return '<div class="tableBox"><table><caption>'+esc(t.caption)+'</caption><thead><tr>'+
+    t.headers.map(h=>'<th scope="col">'+esc(h)+'</th>').join('')+'</tr></thead><tbody>'+
+    t.rows.map(row=>'<tr><th scope="row">'+esc(row[0])+'</th>'+row.slice(1).map(v=>'<td>'+esc(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+}
+function questionHtml(q,j){
+  const prefix='q'+j;
+  if(q.type==='one')return choices(q.options,prefix);
+  if(q.type==='many')return '<p class="foot">Selecciona '+q.key.length+' opciones.</p>'+q.options.map((opt,k)=>
+    '<label class="option"><input type="checkbox" name="'+prefix+'" value="'+k+'"><span>'+esc(opt)+'</span></label>').join('');
+  if(q.type==='number')return '<label class="measure"><input required type="text" inputmode="numeric" autocomplete="off" maxlength="10" name="'+prefix+'" aria-label="'+esc(q.prompt)+'"> '+esc(q.unit)+'</label>';
+  return q.labels.map((label,k)=>'<label class="mapping"><span>'+esc(label)+'</span><select required name="'+prefix+'-'+k+'"><option value="">Escoge una relación</option>'+
+    q.options.map((opt,n)=>'<option value="'+n+'">'+esc(opt)+'</option>').join('')+'</select></label>').join('');
+}
+function readAnswer(data,q,j){
+  if(q.type==='match')return q.labels.map((_,k)=>data.get('q'+j+'-'+k));
+  if(q.type==='many')return data.getAll('q'+j);
+  return data.get('q'+j)??'';
+}
+function correct(q,value){
+  if(q.type==='number')return /^\d+$/.test(value.trim())&&Number(value)===q.key;
+  if(q.type==='match'||q.type==='many')return value.length===q.key.length&&value.every((v,i)=>v!==null&&v!==''&&Number(v)===q.key[i]);
+  return value!==''&&Number(value)===q.key;
+}
+function readable(q,v){
+  if(q.type==='number')return v+' '+q.unit;
+  if(q.type==='many')return v.map(k=>q.options[k]).join(' / ');
+  if(q.type==='match')return v.map((k,j)=>q.labels[j]+' → '+q.options[k]).join(' / ');
+  return q.options[v];
+}
+function notebook(){
+  const passed=files.filter((f,i)=>state.checks[i].passed&&f.phase<3);
+  return passed.length?'<details class="notebook"><summary>Consultar las pruebas superadas ('+passed.length+')</summary>'+
+    passed.map(f=>'<p><b>'+esc(f.title)+'.</b> '+esc(f.finding)+'</p>').join('')+'</details>':'';
+}
+function saveDraft(form,i){
+  state.draft={i,entries:Array.from(new FormData(form))};persist();
+}
+function restore(form,entries){
+  for(const [name,value] of entries??[]){
+    const els=Array.from(form.elements).filter(el=>el.name===name);
+    for(const el of els){
+      if(el.type==='radio'||el.type==='checkbox'){if(el.value===value)el.checked=true}
+      else el.value=value;
+    }
+  }
+}
+function station(i){
+  if(state.initial.some(x=>!x)||i!==openFile()){resume();return}
+  const f=files[i],rec=state.checks[i],n=stationNumber(i),total=files.filter(x=>x.phase===f.phase).length;
+  let guidance='';
+  if(f.phase===2)guidance='<p class="pair-note"><b>Turno de contraste.</b> '+(n===2?'Intercambiad los papeles. ':'')+'Una persona propone la conclusión y otra busca una objeción. Cada cual escribe la suya.</p>';
+  if(f.phase===3)guidance='<p class="foot">Trabajo individual. Tu primera elección en cada una de las dos preguntas cuenta para la puntuación.</p>';
+  show(nav()+progressHeader('Fase '+(f.phase+1)+' · '+phases[f.phase].title,n-1,total)+
+    '<section class="panel"><div class="meta">Prueba '+n+' de '+total+' · '+(f.phase===2?'En pareja':'Individual')+'</div>'+
+    '<div class="scene"><canvas class="specimen" data-art="'+f.object+'" aria-hidden="true"></canvas><h2>'+esc(f.title)+'</h2></div>'+
+    '<p class="lead">'+esc(f.intro)+'</p>'+evidenceTable(f.table)+guidance+
+    (f.phase===2?'<details><summary>Recuperar mi hipótesis sobre '+esc(cases[f.object].title.toLowerCase())+'</summary><p>'+esc(cases[f.object].opts[state.initial[f.object].pick])+' '+esc(state.initial[f.object].why)+'</p></details>':'')+
+    '<form id="proof">'+f.questions.map((q,j)=>'<fieldset class="task"><legend>'+esc(q.prompt)+'</legend>'+questionHtml(q,j)+'<p class="hint" id="hint'+j+'"></p></fieldset>').join('')+
+    (f.write?'<label for="reason">'+esc(f.write)+'</label><textarea id="reason" name="reason" required maxlength="750" placeholder="Mi conclusión se apoya en…"></textarea>':'')+
+    '<p id="signal" class="signal" role="status" tabindex="-1"></p><button class="primary">Comprobar mi prueba</button></form>'+notebook()+'</section>');
+  const form=$('proof');
+  if(state.draft?.i===i)restore(form,state.draft.entries);
+  form.oninput=()=>saveDraft(form,i);
+  form.onchange=()=>saveDraft(form,i);
+  if(rec.last)showHints(f,rec);
+  form.onsubmit=e=>{
+    e.preventDefault();if(openFile()!==i)return;
+    const data=new FormData(form),answers=f.questions.map((q,j)=>readAnswer(data,q,j));
+    const incomplete=f.questions.findIndex((q,j)=>q.type==='many'&&answers[j].length!==q.key.length);
+    if(incomplete>=0){
+      $('signal').textContent='Selecciona exactamente '+f.questions[incomplete].key.length+' opciones en «'+f.questions[incomplete].prompt+'».';
+      $('signal').focus();return;
+    }
+    if(f.write&&!validText('reason'))return;
+    const verdict=f.questions.map((q,j)=>correct(q,answers[j]));
+    if(!rec.attempts){rec.first=answers;rec.firstCorrect=verdict.slice()}
+    rec.attempts++;
+    rec.last=verdict;
+    if(!verdict.every(Boolean)){saveDraft(form,i);showHints(f,rec);$('signal').focus();return}
+    rec.passed=true;
+    if(f.write)rec.reason=data.get('reason').trim();
+    state.draft=null;persist();
+    const next=files[i+1],newPhase=next&&next.phase!==f.phase;
+    show(nav()+'<section class="panel solved"><div class="meta">Prueba validada</div><h2>'+esc(f.title)+'</h2>'+
+      note(esc(f.finding))+'<p>'+(!next?'Has superado los cinco dictámenes. Redacta el cierre para obtener tu PDF.':newPhase?'Has superado esta fase completa. Ya puedes abrir «'+phases[next.phase].title+'».':'Tu evidencia ha quedado registrada en el expediente.')+'</p>'+
+      '<button id="next" class="primary">'+(!next?'Redactar el cierre':newPhase?'Abrir fase '+(next.phase+1):'Abrir la siguiente prueba')+'</button></section>');
+    $('next').onclick=resume;
+  };
+}
+function showHints(f,rec){
+  f.questions.forEach((q,j)=>{
+    const el=$('hint'+j);
+    el.textContent=rec.last[j]?'Parte resuelta.':'Revisa esta parte. '+q.hints[Math.min(rec.attempts-1,q.hints.length-1)];
+    el.className='hint '+(rec.last[j]?'right':'rethink');
+  });
+  $('signal').textContent='La siguiente prueba sigue bloqueada. Revisa las pistas y vuelve a comprobar.';
+}
+function closeCase(){
+  if(openFile()>=0){resume();return}
+  show(nav()+'<section class="panel"><div class="meta">Fase 4 · Cierre individual</div><h2>Firma tu dictamen</h2>'+
+    '<p class="lead">Escoge un objeto y contrasta tu explicación inicial con una evidencia que hayas descubierto.</p>'+
+    '<form id="close"><label for="focusObject">Objeto de mi dictamen</label><select id="focusObject" name="focusObject">'+cases.map((c,i)=>'<option value="'+i+'">'+c.title+'</option>').join('')+'</select><blockquote id="firstIdea"></blockquote>'+
+    '<label for="reason">Ahora lo explicaría así…</label><textarea required maxlength="750" name="reason" id="reason" placeholder="Al principio pensaba… La prueba que me hizo mantener o cambiar mi idea fue… porque…"></textarea>'+
+    '<div class="actions"><button class="primary">Firmar y crear mi informe</button></div></form>'+notebook()+'</section>');
+  const form=$('close');
+  if(state.draft?.i==='close')restore(form,state.draft.entries);
+  function update(){let i=+$('focusObject').value;$('firstIdea').textContent='Tu hipótesis inicial: '+cases[i].opts[state.initial[i].pick]+' '+state.initial[i].why}
+  update();form.oninput=()=>saveDraft(form,'close');form.onchange=()=>{update();saveDraft(form,'close')};
+  form.onsubmit=e=>{e.preventDefault();if(!validText('reason'))return;state.closing={i:+$('focusObject').value,text:$('reason').value.trim()};state.draft=null;persist();report()};
+}
+function finalRecord(i){return state.checks[files.length-cases.length+i]}
+function points(i){return finalRecord(i).firstCorrect.filter(Boolean).length}
+function score(){return cases.reduce((sum,_,i)=>sum+points(i),0)}
+function feedback(i){
+  const c=cases[i],rec=finalRecord(i),p=points(i);
+  if(p===2)return (state.initial[i].pick===c.key?'Aplicaste tu idea inicial':'Revisaste tu hipótesis inicial y aplicaste el concepto')+' al caso nuevo y elegiste una justificación válida.';
+  const part=rec.firstCorrect[0]?'Identificaste el dictamen desde el principio. Vuelve a practicar cómo elegir la evidencia que lo sostiene.':rec.firstCorrect[1]?'Reconociste la evidencia desde el principio. Practica cómo pasar de esa prueba a una conclusión.':'Necesitaste revisar el dictamen y su justificación.';
+  return part+' '+c.tip;
+}
+const extensionQuestion = one('¿Qué pareja de grupos permitiría aislar mejor el papel de la memoria frente al antígeno M?',
+  ['Comparar A con B.','Comparar A con C.','Comparar A con D.'],2,[]);
+function extraCase(){
+  if(state.extra)return '<details class="notebook"><summary>Contraexperimento resuelto</summary><p>'+esc(state.extra)+'</p></details>';
+  return '<details class="notebook"><summary>¿Has terminado antes? Diseña un contraexperimento</summary><p>Un equipo atribuye la rapidez de la respuesta a la memoria. Observa estos cuatro grupos del simulador. Debate qué habría que mantener igual para comprobarlo.</p>'+
+    evidenceTable({caption:'Diseños propuestos · Mismo criterio de medida',headers:['Grupo','Memoria frente a M','Antígeno presentado','Cantidad relativa'],rows:[['A','Sí','M',1],['B','No','M',3],['C','No','N',1],['D','No','M',1]]})+
+    '<form id="extra"><fieldset><legend>'+extensionQuestion.prompt+'</legend>'+choices(extensionQuestion.options,'extra')+'</fieldset><label for="extraNote">Identifica la única variable que cambia y explica qué fallo tiene otra comparación.</label><textarea id="extraNote" required maxlength="600"></textarea><p id="extraHint" role="status"></p><button>Comprobar el diseño</button></form></details>';
+}
+function checkExtra(e){
+  e.preventDefault();if(!validText('extraNote'))return;
+  if(!correct(extensionQuestion,new FormData(e.target).get('extra'))){
+    $('extraHint').textContent='Compara las tres columnas. Deben mantenerse tanto el antígeno como su cantidad.';return;
+  }
+  state.extra=$('extraNote').value.trim();persist();report();
+  $('status').textContent='Contraexperimento incorporado. Puedes descargar el informe actualizado.';
+}
+function reportLines(){
+  const out=['CSI FLORS · LA MOCHILA DE ÁLEX','Expediente de inmunología · Sesión de 50 minutos',
+    state.name+' · '+state.date,'Puntuación individual: '+score()+' / 10',
+    'Cinco dictámenes. Cada decisión y cada justificación correctas al primer intento suman un punto. Todas las pruebas obligatorias se han resuelto al finalizar.'];
+  cases.forEach((c,i)=>{
+    const v=state.initial[i],f=files[files.length-cases.length+i],rec=finalRecord(i);
+    out.push('',c.title+' · '+c.topic,'Hipótesis inicial: '+c.opts[v.pick],'Por qué: '+v.why,'Seguridad: '+confidence[v.conf],
+      'Reto: '+f.intro,'Primer dictamen: '+readable(f.questions[0],rec.first[0]),'Primera justificación: '+readable(f.questions[1],rec.first[1]),
+      'Puntos: '+points(i)+'/2. Intentos hasta resolverlo: '+rec.attempts+'.','Feedback: '+feedback(i));
+  });
+  out.push('','Registro de investigación');
+  files.forEach((f,i)=>{
+    if(f.phase===3)return;
+    const rec=state.checks[i];
+    out.push(f.title+' · Intentos: '+rec.attempts+'.');
+    if(rec.attempts>1)f.questions.forEach((q,j)=>{if(!rec.firstCorrect[j])out.push('Primera respuesta que revisó: '+readable(q,rec.first[j]))});
+    if(f.write)out.push('Argumento escrito: '+rec.reason);
+  });
+  out.push('','Dictamen firmado · '+cases[state.closing.i].title,state.closing.text);
+  if(state.extra)out.push('','Contraexperimento de ampliación','Comparación elegida: A y D.',state.extra);
+  return out;
+}
+function report(){
+  if(openFile()>=0||!state.closing){resume();return}
+  show(nav()+'<section class="panel"><div class="meta">Expediente cerrado · '+esc(state.name)+'</div><h2>Tu informe de investigación</h2>'+
+    '<strong class="result">'+score()+' / 10</strong><p>Has superado las 14 pruebas de comprobación. La puntuación recoge los aciertos al primer intento en las 10 decisiones del dictamen final.</p>'+
+    '<div class="actions"><button class="primary" id="save">Descargar mi PDF</button><button id="send">Entregar por Classroom</button></div><div id="delivery" hidden></div><p class="foot" id="status" role="status"></p>'+
+    '<h3>Feedback por objeto</h3>'+cases.map((c,i)=>'<details><summary>'+esc(c.title)+' · '+points(i)+'/2</summary><p>'+esc(feedback(i))+'</p><p>Intentos hasta resolver el dictamen: '+finalRecord(i).attempts+'.</p></details>').join('')+
+    '<h3 class="section-title">Tu conclusión</h3><blockquote>'+esc(state.closing.text)+'</blockquote>'+extraCase()+'<button id="restart">Volver al inicio</button></section>');
+  $('restart').onclick=home;$('save').onclick=downloadPDF;$('send').onclick=delivery;
+  if($('extra'))$('extra').onsubmit=checkExtra;
+}
+
 let pdfCache=null,pdfState='';
 function pdfFile(){const signature=JSON.stringify(state);if(pdfCache&&signature===pdfState)return pdfCache;
 const images=[];let cv,ctx,y;
@@ -58,6 +423,7 @@ box(-148,-150,297,343,[80,80,49,49],'#cb7048');box(-130,-139,259,316,[71,71,38,3
 box(-41,-82,82,43,6,'#e8d6a1');word('FLORS',-32,-54,21);box(-108,35,216,127,[28,28,24,24],'#d37f4f');box(-99,43,198,30,12,'#e8a36c');path([[-91,62],[91,62]],'#805336',4);box(65,58,11,30,3,'#dfbd76');for(let j=-85;j<90;j+=12)path([[j,150],[j+5,150]],'#f9b981',2);g.restore();
 obj(0,171,166,1.18,-.45);obj(1,655,157,1.18,.18);obj(2,169,472,1.24,-.25);obj(3,653,422,1.24,.23);obj(4,548,548,1.05,.23);for(const [x,y,n] of [[189,217,1],[616,220,2],[104,510,3],[702,475,4],[599,579,5]]){oval(x,y,17,17,'#f4edc9',ink,2);word(''+n,x-6,y+6,18)}
 }
-$('guide').onclick=()=>$('guidebox').showModal();try{const existing=JSON.parse(sessionStorage.getItem(storageKey));if(existing&&Array.isArray(existing.initial)&&existing.initial.length===5)state=existing}catch{}home();
+$('guidePhases').innerHTML=phases.map((p,i)=>'<li><b>'+p.time+' min · '+p.title+'.</b> '+phasesGuide[i]+'</li>').join('');
+$('guide').onclick=()=>$('guidebox').showModal();try{const existing=JSON.parse(sessionStorage.getItem(storageKey));if(existing?.version===2&&existing.initial?.length===5&&existing.checks?.length===files.length)state=existing}catch{}home();
 })();
 </script></body></html>
